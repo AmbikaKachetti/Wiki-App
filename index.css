@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 360px;
+} */
+body{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+header{
+    /* background-color: red; */
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+nav{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+nav span{
+    margin-left: 10px;
+}
+nav span:first-child{
+    border-bottom: 2px solid black;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+.image-container{
+    float: right;
+    margin: 15px;
+}
+/* main section{
+    padding: 20px;
+} */
+.content{
+    padding: 20px;
+}
+.content p{
+    margin-bottom: 20px;
+}
